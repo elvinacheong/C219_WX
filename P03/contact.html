@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!--Naviation Bar-->
+
+    <header class="header">
+        <div>
+            <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 20 20" style="enable-background:new 0 0 10 10;" xml:space="preserve">
+            <style type="text/css">
+                .st0{fill:none;stroke:url(#SVGID_1_);stroke-width:0.25;stroke-miterlimit:9.9999;}
+                
+                    .st1{fill:none;stroke:url(#SVGID_00000147189594610747833480000018225015066676218267_);stroke-width:0.25;stroke-miterlimit:9.9999;}
+            </style>
+            <g>
+                <path d="M2.27,2.16l0.51-1.45h0.04l-0.6,1.7H2.1L1.74,1.39L1.39,2.41H1.28l-0.6-1.7h0.25l0.51,1.45l0.29-0.82L1.51,0.71h0.25
+                    L2.27,2.16z"/>
+            </g>
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-31.1676" y1="2.7998" x2="-27.1876" y2="2.7998" gradientTransform="matrix(0.3541 -0.9352 -0.9352 -0.3541 15.1464 -24.82)">
+                <stop  offset="0" style="stop-color:#00939C"/>
+                <stop  offset="0.119" style="stop-color:#008D9B"/>
+                <stop  offset="0.2846" style="stop-color:#007B97"/>
+                <stop  offset="0.4777" style="stop-color:#005D91"/>
+                <stop  offset="0.6914" style="stop-color:#003489"/>
+                <stop  offset="0.9171" style="stop-color:#00007F"/>
+            </linearGradient>
+            <ellipse transform="matrix(0.3541 -0.9352 0.9352 0.3541 0.0447 3.0055)" class="st0" cx="2.2" cy="1.47" rx="0.87" ry="1.97"/>
+            <linearGradient id="SVGID_00000031175717551847891820000012254494436992474031_" gradientUnits="userSpaceOnUse" x1="-31.0555" y1="2.8865" x2="-27.0745" y2="2.8865" gradientTransform="matrix(0.3389 -0.9205 -0.9332 -0.363 14.8346 -24.183)">
+                <stop  offset="0" style="stop-color:#00939C"/>
+                <stop  offset="0.119" style="stop-color:#008D9B"/>
+                <stop  offset="0.2846" style="stop-color:#007B97"/>
+                <stop  offset="0.4777" style="stop-color:#005D91"/>
+                <stop  offset="0.6914" style="stop-color:#003489"/>
+                <stop  offset="0.9171" style="stop-color:#00007F"/>
+            </linearGradient>
+            <ellipse transform="matrix(0.3541 -0.9352 0.9352 0.3541 0.0545 3.1272)" style="fill:none;stroke:url(#SVGID_00000031175717551847891820000012254494436992474031_);stroke-width:0.25;stroke-miterlimit:9.9999;" cx="2.29" cy="1.52" rx="0.88" ry="1.92"/>
+            <g>
+                <path d="M3.25,1.58l0.56,0.89H3.56L3.07,1.69L2.54,2.47H2.5l0.55-0.81l-0.57-0.9h0.26l0.49,0.78l0.54-0.78h0.04L3.25,1.58z"/>
+            </g>
+            </svg>
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="hamburger">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+    
+        <nav class="navbar">
+            <a href="home.html" style="--i:0;">Home</a> 
+            <div class="dropdown" style="--i:1;">
+                <a class="dropbtn">Package Tours</a>
+                <div class="dropdown-content">
+                    <a href="/pkg/tour1/">Santorini, Greece</a>
+                    <a href="/pkg/tour2/">Tokyo, Japan</a>
+                    <a href="/pkg/tour3/">Paris, France</a>
+                </div>
+            </div> 
+            <a href="/rs/" style="--i:2;">Rediscover Singapore</a> 
+            <a href="/cruises/" style="--i:3;">Cruises</a> 
+            <a href="contact.html" id="active" style="--i:4;">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <!--Contact Us-->
+
+    <div class="container">
+
+        <video autoplay muted loop width="600">
+            <source src="videos/pexels_videos_1321208 (2160p).mp4" type="video/mp4">
+        </video>
+
+        <div class="contact-form">
+            <h1>Send us a message!</h1>
+            <div class="txtb">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="txtb">
+                <label>Email:</label>
+                <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="txtb">
+                <label>Phone:</label>
+                <input type="text" placeholder="Enter your phone number">
+            </div>
+            <div class="txtb">
+                <label>Message:</label>
+                <textarea></textarea>
+            </div>
+            <a class="btn">Submit</a>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <a class="active" href="/home/">Home</a> |
+        <a href="/pkg/">Package Tours</a> |
+        <a href="/rs/">Rediscover Singapore</a> |
+        <a href="/cruises/">Cruises</a> |
+        <a href="/contact/">Contact Us</a>
+    </div>
+
+</body>
+</html>
